@@ -176,7 +176,7 @@ class ScreenCaptureQA:
             
             # Display results
             self.result_text.delete(1.0, tk.END)
-            self.result_text.insert(tk.END, f"Extracted Text:\n{text}\n\n")
+            # self.result_text.insert(tk.END, f"Extracted Text:\n{text}\n\n")
             self.result_text.insert(tk.END, f"Question Type: {question_type}\n\n")
             self.result_text.insert(tk.END, f"Question: {question}\n\n")
             self.result_text.insert(tk.END, f"Answer from Gemini:\n{answer}\n")
