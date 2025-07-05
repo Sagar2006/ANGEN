@@ -1,6 +1,6 @@
 # ANGEN
 
-ANGEN is a desktop utility designed to streamline the process of extracting and answering questions from on-screen images using Google's Gemini API. With a simple and interactive GUI powered by Tkinter, users can select any area of their screen containing a question, and ANGEN will automatically extract the text, send it to Gemini for processing, and return the answer right in the application window.
+ANGEN is a desktop utility designed to quickly extract and answer questions from on-screen images using Google's Gemini API. With a simple interactive GUI powered by Tkinter, users can select any area of their screen containing a question, and ANGEN will automatically extract the text, send it to Gemini for processing, and return the answer right in the application window.
 
 > **Disclaimer:**  
 > This tool is described as a "cheating tool" for students to quickly extract and answer questions from their screen. Please use responsibly and in accordance with your local laws, academic policies, and ethical guidelines.
@@ -9,7 +9,7 @@ ANGEN is a desktop utility designed to streamline the process of extracting and 
 
 ## Features
 
-- **Easy to Use GUI:**  
+- **Easy-to-Use GUI:**  
   Launch the app and interact with a friendly Tkinter dialogue box.
 
 - **Screen Region Selection:**  
@@ -29,7 +29,7 @@ ANGEN is a desktop utility designed to streamline the process of extracting and 
 ## How It Works
 
 1. **Start the Application:**  
-   Run ANGEN to open the main Tkinter window.
+   Run `app_gemini.py` to open the main Tkinter window.
 
 2. **Begin Selection:**  
    Click the "Start" button to bring up the selection screen.
@@ -57,7 +57,7 @@ ANGEN is a desktop utility designed to streamline the process of extracting and 
     ```bash
     pip install -r requirements.txt
     ```
-    *Dependencies may include `tkinter`, `pillow`, `pytesseract`, `requests` or `httpx` for API calls, etc.*
+    > *Dependencies may include `tkinter`, `pillow`, `pytesseract`, `requests` or `httpx` for API calls, etc.*
 
 3. **Configure Gemini API**
     - Obtain a Gemini API key from Google.
@@ -68,24 +68,12 @@ ANGEN is a desktop utility designed to streamline the process of extracting and 
 ## Usage
 
 ```bash
-python main.py
+python app_gemini.py
 ```
 
 - Follow the on-screen instructions.
 - Select the area on your screen with the question.
 - Wait for the answer to appear in the app window.
-
----
-
-## Screenshots
-
-*(Add screenshots here to show the workflow)*
-
----
-
-## Contributing
-
-Contributions are welcome! Please open issues or pull requests for bugs, feature requests, or improvements.
 
 ---
 
